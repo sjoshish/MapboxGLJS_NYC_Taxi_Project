@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 10px;
+}
+
+h2 {
+  font-size: 11px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #2dc4b2;
+}
+
+#console {
+  position: absolute;
+  width: 400px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+
+.session {
+  margin-top:20px;
+  margin-bottom: 5px;
+}
+
+.row {
+  height: 7px;
+  width: 400px;
+}
+
+.colors {
+  background: linear-gradient(to right, #2dc4b2, #3bb3c3, #669ec4, #8b88b6, #a2719b, #aa5e79);
+  margin-bottom: 5px;
+}
+
+.label {
+  width: 60px;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px
+}
+
+
+.geocoder {
+position:fixed;
+z-index:1;
+width:100px;
+left:80%;
+top:15px;
+}
+.mapboxgl-ctrl-geocoder 
+{ min-width:10px;
+}
+
+
+
+#layer-control {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  display: inline-flex;
+  border-radius: 3px;
+  background-color: white;
+  padding: 1px;
+  z-index: 10;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.switch-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  font-size: 13px;
+  top:1px;
+}
+
+.switch {
+  margin-left: 5px;
+}
